@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+ <!-- google metarial icon cnd  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- iconscount cdn  -->
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+      <!-- swiper css  -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+      
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- email js cdn and init  -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("pHN7Wx2SJmmlAeN3U"); 
+   })();
+</script>
+  
+</head>
+<body>
+    <!-- NAV START HERE  -->
+    <nav>
+        <div class="container" id="nav_container">
+            <a href="#"><h3>Omega</h3></a>
+            <ul class="menu">
+                <li><a class="nav_link active" href="#home">Home</a></li>
+                <li><a class="nav_link" href="#about">About</a></li>
+                <li><a class="nav_link" href="#skills">Skills</a></li>
+                <li><a class="nav_link" href="#services">Services</a></li>
+                <li><a class="nav_link" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav_link" href="#contact">Let's Talk</a></li>
+            </ul>
+
+            <button id="menu_btn"><span class="material-icons-sharp" >menu</span></button>
+            <button id="close_btn"><span class="material-icons-sharp" >close</span></button>
+              
+        </div>
+    </nav>
+
+     <!-- LANDING SECTION START HERE  -->
+
+     <section class="landing" id="home">
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.facebook.com " target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.dribbble.com " target="_blank"><i class="uil uil-dribbble"></i></a>
+                <a href="https://www.github.com " target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+            <div class="info">
+                <h1>UI/UX Design &<br> Full Stack Web<br> Developer</h1>
+                <h3>hi, i am cofi Omega</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae minus dolores ratione accusamus, sunt nam at harum error recusandae sed voluptatem illum et. In ea assumenda nihil laborum nulla corporis?</p>
+                <a href="#contact" class="btn btn_primary">Let's Talk</a>
+            </div>
+            <div class="profile_area">
+                <div class="outer_circle">
+                    <span class="material-icons-sharp">design_services </span>
+                    <span class="material-icons-sharp">dns</span>
+                    <span class="material-icons-sharp">code</span>
+                    <span class="material-icons-sharp">integration_instructions</span>             
+                </div>
+                <div class="inner_circle">
+                    <img src="images/profile_linkedin.jpg" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- ABOUT SECTION START HERE  -->
+
+     <section class="about" id="about">
+        <h2>About</h2>
+        <div class="container">
+            <div class="image">
+                <img src="images/profile_linkedin_about.jpg" alt="profile-about">
+            </div>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempora quaerat veritatis magni voluptatibus. Voluptatum laboriosam delectus inventore consequatur, consequuntur facere tempora pariatur. Repudiandae odio aspernatur autem enim quas ab, voluptatem quaerat incidunt, perferendis in doloremque tenetur, assumenda nihil nemo? Rerum sed ex sit quos. Dolorum necessitatibus accusamus commodi a unde eligendi obcaecati. Quidem, maxime. Vero deserunt, sit expedita aliquam quaerat sint libero voluptatibus. Suscipit consequuntur fuga eaque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi placeat tempore. Hic esse reprehenderit tempora exercitationem. Praesentium expedita culpa consectetur corporis temporibus soluta non iure. Laudantium hic accusamus, aliquid quam delectus voluptate repudiandae non corrupti officia praesentium vitae, sapiente laboriosam excepturi animi. Earum qui voluptatibus recusandae, quam itaque provident praesentium sequi molestias totam quas atque accusantium voluptates reprehenderit dolorem.</p>
+                <div class="read_more_content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique error sunt ea impedit necessitatibus molestiae quisquam, fuga temporibus itaque. Reiciendis nisi nemo eius unde praesentium eaque commodi sunt. Officia autem accusamus fugit, eligendi a nulla doloribus provident aliquid vero et laborum asperiores aut itaque. Eos, error iure aliquam quae non ea magnam voluptates molestias. Soluta vitae, maxime sint praesentium reiciendis pariatur nulla nostrum sequi incidunt dolorem dignissimos reprehenderit quisquam eum iure dicta optio </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione illum quos dolore soluta explicabo officiis ab ad nemo officia perferendis, quibusdam fugit ducimus aliquam eius nam molestias harum illo esse, tempora ea. Voluptates culpa, reprehenderit debitis mollitia ut quisquam fugit!</p>
+                </div>
+                <a class="read_more">Show More</a>
+                <a href="./images/cv.pdf" download="" class="btn btn_primary">
+                    <i class="uil uil-import"></i>Download CV
+                </a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SKILLS SECTION START HERE  -->
+
+     <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <!-- skill  -->
+            <div class="skill">
+               <div class="head">
+                    <div class="left">
+                        <span class="material-icons-sharp">design_services</span>
+                        <h4>UI/UX Design</h4>
+                    </div>
+                    <div class="right">
+                        <span class="material-icons-sharp">expand_more</span>
+                    </div>
+                </div>
+                    <div class="items">
+                        <!-- item -->
+                        <div class="item">
+                            <h4>Figma</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="item">
+                            <h4>Adobe XD</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="item">
+                            <h4>Adobe After Effects</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>75%</h5>
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+
+            <!-- skill  -->
+            <div class="skill">
+                <div class="head">
+                     <div class="left">
+                         <span class="material-icons-sharp">code</span>
+                         <h4>Frontend Development</h4>
+                     </div>
+                     <div class="right">
+                         <span class="material-icons-sharp">expand_more</span>
+                     </div>
+                 </div>
+                     <div class="items">
+                         <!-- item -->
+                         <div class="item">
+                             <h4>HTML</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>92%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                             <h4>CSS</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>88%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                             <h4>SASS</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>75%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                            <h4>Bootstrap</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="item">
+                            <h4>JavaScript</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="item">
+                            <h4>React</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>75%</h5>
+                            </div>
+                        </div>
+                     </div>
+                
+             </div>
+
+             <!-- skill  -->
+            <div class="skill">
+                <div class="head">
+                     <div class="left">
+                        <span class="material-icons-sharp">integration_instructions</span>  
+                         <h4>Backend Development</h4>
+                     </div>
+                     <div class="right">
+                         <span class="material-icons-sharp">expand_more</span>
+                     </div>
+                 </div>
+                     <div class="items">
+                         <!-- item -->
+                         <div class="item">
+                             <h4>PHP</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>92%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                             <h4>Python</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>88%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                             <h4>Node JS</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>75%</h5>
+                             </div>
+                         </div>
+                         <!-- item -->
+                         <div class="item">
+                            <h4>Mongo DB</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>92%</h5>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="item">
+                            <h4>MySQL</h4>
+                            <div class="progress_area">
+                                <div class="progress_bar">
+                                    <div class="progress"></div>
+                                </div>
+                                <h5>88%</h5>
+                            </div>
+                        </div>
+                      
+                     </div>
+                
+             </div>
+
+               <!-- skill  -->
+            <div class="skill">
+                <div class="head">
+                     <div class="left">
+                         <span class="material-icons-sharp">settings_input_svideo</span>
+                         <h4>CMS</h4>
+                     </div>
+                     <div class="right">
+                         <span class="material-icons-sharp">expand_more</span>
+                     </div>
+                 </div>
+                     <div class="items">
+                         <!-- item -->
+                         <div class="item">
+                             <h4>WordPress</h4>
+                             <div class="progress_area">
+                                 <div class="progress_bar">
+                                     <div class="progress"></div>
+                                 </div>
+                                 <h5>92%</h5>
+                             </div>
+                         </div>
+                      
+                     </div>
+                
+             </div>
+
+        </div>   
+
+     </section>
+
+     <!-- ====================== SERVICES SECTION ====================== -->
+
+   <section class="services" id="services">
+        <h2>Service</h2>
+        <div class="container">
+            <div class="service ">
+                <span class="material-icons-sharp">design_services</span>
+                <h3>UI/UX Desing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti fuga dolores harum ullam consequuntur minus dolorem debitis, labore odit reiciendis quae, laborum nam recusandae commodi neque quisquam incidunt? Laborum, consequuntur?</p>
+            </div>
+            <div class="service ">
+                <span class="material-icons-sharp">language</span>
+                <h3>Website & Web apps Development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti fuga dolores harum ullam consequuntur minus dolorem debitis, labore odit reiciendis quae, laborum nam recusandae commodi neque quisquam incidunt? Laborum, consequuntur?</p>
+            </div>
+            <div class="service ">
+                <span class="material-icons-sharp">install_mobile</span>
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti fuga dolores harum ullam consequuntur minus dolorem debitis, labore odit reiciendis quae, laborum nam recusandae commodi neque quisquam incidunt? Laborum, consequuntur?</p>
+            </div>
+           
+        </div>
+     </section> 
+
+     <!-- ================ (RECENT WORK) PORTFOLIO SECTION =================== -->
+
+     <section class="recent_work" id="portfolio">
+         <div class="container">
+            <h4>My recent work</h4>
+            <h2 class="work">Here Are Some of My Most Recent Solo Projects</h2>
+            <div class="projects">
+                <!-- project  -->
+              <div class="project">
+                  <div class="thubmnail">
+                      <img src="images/work1.jpg" alt="">
+                  </div>
+                  <h2> E-Commerce Website </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fuga assumenda, ducimus a, libero iure veritatis quia labore sint voluptate atque velit iusto exercitationem reiciendis ut, optio consequuntur nobis suscipit!</p>
+                  <div class="action">
+                    <a href="#" >Github</a>
+                    <a href="#" >Live Demo</a>
+                  </div>
+              </div>
+
+                 <!-- project  -->
+                 <div class="project">
+                    <div class="thubmnail">
+                        <img src="images/work2.jpg" alt="">
+                    </div>
+                    <h2>Crypto Mining app</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fuga assumenda, ducimus a, libero iure veritatis quia labore sint voluptate atque velit iusto exercitationem reiciendis ut, optio consequuntur nobis suscipit!</p>
+                    <div class="action">
+                        <a href="#" >Github</a>
+                        <a href="#" >Live Demo</a>
+                    </div>
+                </div>
+
+                   <!-- project  -->
+              <div class="project">
+                <div class="thubmnail">
+                    <img src="images/work3.jpg" alt="">
+                </div>
+                <h2>Bitcoin Exchange & Envestment Website</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fuga assumenda, ducimus a, libero iure veritatis quia labore sint voluptate atque velit iusto exercitationem reiciendis ut, optio consequuntur nobis suscipit!</p>
+                <div class="action">
+                    <a href="#" >Github</a>
+                    <a href="#" >Live Demo</a>
+                </div>
+            </div>
+
+                <!-- project  -->
+                <div class="project">
+                    <div class="thubmnail">
+                        <img src="images/work4.jpg" alt="">
+                    </div>
+                    <h2>Web Hosting Service Website</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fuga assumenda, ducimus a, libero iure veritatis quia labore sint voluptate atque velit iusto exercitationem reiciendis ut, optio consequuntur nobis suscipit!</p>
+                    <div class="action">
+                        <a href="#" >Github</a>
+                        <a href="#" >Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+     </section>
+
+       <!-- ====================== TESTIMONIAL SECTION ====================== -->
+
+      <section class="testimonial ">
+        <h2>Testimonial</h2>
+        <div class="container swiper mySwiper ">
+            <div class="testimonials swiper-wrapper ">
+                <!-- testimonial  -->
+                <div class="testimonial swiper-slide ">
+                    <div class="head">
+                        <div class="profile_area">
+                            <div class="profile_img">
+                                <img src="images/testimonial-1.png" alt="">
+                            </div>
+                            <div class="profile_title">
+                                <h4>Jibon Khan</h4>
+                                <small>Civil Engineer</small>
+                            </div>
+                        </div>
+                        <div class="star">
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis sunt aliquam, provident hic illo incidunt qui unde voluptatem cupiditate!consectetur adipisicing elit. Quibusdam officiis sunt aliquam</p>
+                </div>
+
+                <!-- testimonial  -->
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile_area">
+                            <div class="profile_img">
+                                <img src="images/testimonial-2.png" alt="">
+                            </div>
+                            <div class="profile_title">
+                                <h4>Danya Ayi</h4>
+                                <small>SEO Founder</small>
+                            </div>
+                        </div>
+                        <div class="star">
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis sunt aliquam, provident hic illo incidunt qui unde voluptatem cupiditate!</p>
+                </div>
+
+                <!-- testimonial  -->
+                <div class="testimonial swiper-slide">
+                    <div class="head">
+                        <div class="profile_area">
+                            <div class="profile_img">
+                                <img src="images/testimonial-4.png" alt="">
+                            </div>
+                            <div class="profile_title">
+                                <h4>God Goodwin</h4>
+                                <small>Web Developer</small>
+                            </div>
+                        </div>
+                        <div class="star">
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                            <span class="material-icons-sharp">star</span>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis sunt aliquam, provident hic illo incidunt qui unde voluptatem cupiditate!consectetur adipisicing elit. Quibusdam officiis sunt aliquam</p>
+                </div>
+            </div>   
+            <div class="swiper-scrollbar"></div>       
+        </div> 
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Let's Talk with Us</h2>
+        <div class="container">
+            <p>If you need anything just contact us. we are avaible<br> all time for our customer.</p>
+            <form action="#" class="form" id="myForm">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+                <input type="text" name="phone" id="phone" placeholder="Your phone" required>
+                <textarea name="" id="message"  rows="5" placeholder="Message" required></textarea>
+                <input type="submit" id="btn" class="submit_btn"   value="Submit" >
+            </form>
+            <div class="popup" id="popup">
+                <img src="images/tik_mark.png" alt="">
+                <h2>Thank You!</h2>
+                <p>Your details has been successfully<br> submitted. Thanks!</p>
+                <button type="button" id="close_btn" >OK</button>
+              </div>
+        </div>
+      </section>
+      
+       <!-- ====================== FOOTER ====================== -->
+      <footer>
+        <div class="container">
+            <a href="#"><h3>Omega</h3></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+            </ul>
+            <div class="socials">
+                <a href="https://www.facebook.com " target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.dribbble.com " target="_blank"><i class="uil uil-dribbble"></i></a>
+                <a href="https://www.github.com " target="_blank"><i class="uil uil-github"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; <span id="currentYear"></span>. All Right Reserved.</p>
+        </div>
+      </footer>
+
+      
+
+      <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <!-- Custom JS    -->
+    <script src="main.js"></script>
+    
+</body>
+</html>
